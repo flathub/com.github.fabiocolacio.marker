@@ -57,6 +57,10 @@
             "type": "git",
             "tag": "2018.01.28",
             "url": "https://github.com/fabiocolacio/Marker.git"
+          },
+          {
+            "type": "patch",
+            "path": "appdata.patch"
           }
         ]
       }
