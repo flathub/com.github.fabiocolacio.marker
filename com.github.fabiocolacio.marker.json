@@ -7,6 +7,8 @@
   "finish-args": [
     /* X11 + XShm access */
     "--share=ipc", "--socket=x11",
+    /* Filesystem Access */
+    "--filesystem=home",
     /* Wayland access */
     "--socket=wayland",
     /* dconf */
