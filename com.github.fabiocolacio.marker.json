@@ -7,6 +7,8 @@
   "finish-args": [
     /* X11 + XShm access */
     "--share=ipc", "--socket=x11",
+    /* Needed to open URLs in documents */
+    "--share=network",
     /* Filesystem Access */
     "--filesystem=home",
     /* Wayland access */
