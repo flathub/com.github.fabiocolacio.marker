@@ -7,6 +7,8 @@
   "finish-args": [
     /* X11 + XShm access */
     "--share=ipc", "--socket=fallback-x11",
+    /* Render external images */
+    "--share=network",
     /* Filesystem Access */
     "--filesystem=home",
     /* Wayland access */
