@@ -75,6 +75,10 @@
             "type": "git",
             "tag": "2019.11.06",
             "url": "https://github.com/fabiocolacio/Marker.git"
+          },
+          {
+            "type": "patch",
+            "path": "appdata_screenshots_release.patch"
           }
         ]
       }
