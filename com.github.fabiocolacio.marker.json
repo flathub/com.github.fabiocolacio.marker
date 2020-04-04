@@ -75,12 +75,8 @@
         "sources": [
           {
             "type": "git",
-            "tag": "2020.04.04",
+            "tag": "2020.04.04.1",
             "url": "https://github.com/fabiocolacio/Marker.git"
-          },
-          {
-            "type": "patch",
-            "path": "appdata_screenshots_release.patch"
           }
         ]
       }
