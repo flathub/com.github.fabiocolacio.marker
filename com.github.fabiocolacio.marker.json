@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.fabiocolacio.marker",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.36",
+  "runtime-version": "40",
   "sdk": "org.gnome.Sdk",
   "command": "marker",
   "finish-args": [
@@ -27,7 +27,7 @@
         "sources": [
           {
             "type": "archive",
-            "url": "https://www.abisource.com/downloads/enchant/1.6.0/enchant-1.6.0.tar.gz",
+            "url": "http://www.abisource.com/downloads/enchant/1.6.0/enchant-1.6.0.tar.gz",
             "sha256": "2fac9e7be7e9424b2c5570d8affe568db39f7572c10ed48d4e13cddf03f7097f"
           },
           {
@@ -55,8 +55,8 @@
         "sources": [
           {
             "type": "archive",
-            "url": "https://downloads.sourceforge.net/sourceforge/gtkspell/gtkspell3-3.0.9.tar.xz",
-            "sha256": "a4f4a4a2789f7499563e26d96b22d8085222ebe278da47d026b2de782b8b4d26"
+            "url": "https://downloads.sourceforge.net/sourceforge/gtkspell/gtkspell3-3.0.10.tar.xz",
+            "sha256": "b040f63836b347eb344f5542443dc254621805072f7141d49c067ecb5a375732"
           }
         ],
         "modules": [
