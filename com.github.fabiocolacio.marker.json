@@ -27,8 +27,8 @@
         "sources": [
           {
             "type": "archive",
-            "url": "http://www.abisource.com/downloads/enchant/1.6.0/enchant-1.6.0.tar.gz",
-            "sha256": "2fac9e7be7e9424b2c5570d8affe568db39f7572c10ed48d4e13cddf03f7097f"
+            "url": "https://github.com/AbiWord/enchant/archive/refs/tags/enchant-1-6-1.tar.gz",
+            "sha256": "ed2b11211a571ab5f963debf4c3bf3fc46541bb9cbb441b2997bd871ba8618d4"
           },
           {
             "type": "shell",
