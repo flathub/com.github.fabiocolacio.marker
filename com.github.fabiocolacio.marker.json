@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.fabiocolacio.marker",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "40",
+  "runtime-version": "41",
   "sdk": "org.gnome.Sdk",
   "command": "marker",
   "finish-args": [
@@ -33,8 +33,7 @@
           {
             "type": "shell",
             "commands": [
-              "cp -f /usr/share/automake-1.16/config.sub .",
-              "cp -f /usr/share/automake-1.16/config.guess ."
+              "cp -p /usr/share/automake-*/config.{sub,guess} ."
             ]
           }
         ]
