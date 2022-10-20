@@ -1,0 +1,35 @@
+From 6e5ab074c052f50fa1b875c7959d56090f524ff4 Mon Sep 17 00:00:00 2001
+From: Paul Cercueil <paul@crapouillou.net>
+Date: Thu, 20 Oct 2022 16:43:23 +0100
+Subject: [PATCH] meson: Bump webkit2gtk dependency to 4.1
+
+webkit2gtk-4.1 is compatible with webkit2gtk-4.0, the difference is that
+it links with libsoup3 instead of libsoup2.
+
+Signed-off-by: Paul Cercueil <paul@crapouillou.net>
+---
+ meson.build | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/meson.build b/meson.build
+index 17b51660..5e66db8a 100644
+--- a/meson.build
++++ b/meson.build
+@@ -82,12 +82,12 @@ deps = [
+   dependency('gtk+-3.0', version : '>=3.20'),
+   dependency('glib-2.0'),
+   dependency('gtksourceview-3.0'),
+-  dependency('webkit2gtk-4.0'),
++  dependency('webkit2gtk-4.1'),
+   dependency('gtkspell3-3.0')
+ ]
+ 
+ ext_deps =[
+-  dependency('webkit2gtk-4.0')
++  dependency('webkit2gtk-4.1')
+ ]
+ 
+ add_global_arguments(
+-- 
+2.35.1
+
