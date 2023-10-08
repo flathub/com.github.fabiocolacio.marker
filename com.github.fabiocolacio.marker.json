@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.fabiocolacio.marker",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "43",
+  "runtime-version": "45",
   "sdk": "org.gnome.Sdk",
   "command": "marker",
   "finish-args": [
@@ -74,12 +74,8 @@
         "sources": [
           {
             "type": "git",
-            "tag": "2020.04.04.2",
+            "tag": "2023.05.02",
             "url": "https://github.com/fabiocolacio/Marker.git"
-          },
-          {
-            "type": "patch",
-            "path": "0001-meson-Bump-webkit2gtk-dependency-to-4.1.patch"
           }
         ]
       }
