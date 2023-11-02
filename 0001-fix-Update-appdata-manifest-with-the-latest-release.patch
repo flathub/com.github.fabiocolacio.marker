@@ -1,0 +1,36 @@
+From 6d5f33dbd79e8492268692b122eb95437b9ac934 Mon Sep 17 00:00:00 2001
+From: Camille019 <camille019@outlook.com>
+Date: Wed, 11 Oct 2023 15:26:03 +0200
+Subject: [PATCH] fix: Update appdata manifest with the latest release
+
+---
+ data/com.github.fabiocolacio.marker.appdata.xml | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+diff --git a/data/com.github.fabiocolacio.marker.appdata.xml b/data/com.github.fabiocolacio.marker.appdata.xml
+index 28874374..2a31034c 100644
+--- a/data/com.github.fabiocolacio.marker.appdata.xml
++++ b/data/com.github.fabiocolacio.marker.appdata.xml
+@@ -60,6 +60,19 @@
+   </provides>
+ 
+   <releases>
++    <release version="2023.05.02" date="2023-05-02">
++      <description>
++        <ul>
++          <li>Underline the H3 titles</li>
++          <li>Add GitHub dark theme</li>
++          <li>Save window size and position, editor pane width and sidebar open/closed state</li>
++          <li>Hide unsupported formats when pandoc is unavailable</li>
++          <li>Fix PDF export on non-English locales</li>
++          <li>Add new translations (cs, es, ko, pt_BR, sv, tr, uk)</li>
++          <li>Update translations (de, it, zh_CN)</li>
++        </ul>
++      </description>
++    </release>
+     <release version="2020.04.04" date="2020-04-04">
+       <description>
+         <ul>
+-- 
+2.41.0
+

@@ -76,6 +76,14 @@
             "type": "git",
             "tag": "2023.05.02",
             "url": "https://github.com/fabiocolacio/Marker.git"
+          },
+          {
+            "type": "patch",
+            "path": "0001-fix-build-Bump-version-in-Meson-file-to-2023.05.02.patch"
+          },
+          {
+            "type": "patch",
+            "path": "0001-fix-Update-appdata-manifest-with-the-latest-release.patch"
           }
         ]
       }

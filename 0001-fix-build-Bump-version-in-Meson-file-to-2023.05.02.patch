@@ -1,0 +1,23 @@
+From e0606da207ce261e5b59efef4b25c27e46057fda Mon Sep 17 00:00:00 2001
+From: Camille019 <camille019@outlook.com>
+Date: Wed, 11 Oct 2023 11:59:29 +0200
+Subject: [PATCH] fix(build): Bump version in Meson file to 2023.05.02
+
+---
+ meson.build | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/meson.build b/meson.build
+index 5e66db8a..feeda3b5 100644
+--- a/meson.build
++++ b/meson.build
+@@ -1,5 +1,5 @@
+ project('Marker', 'c',
+-  version : '2020.04.04',
++  version : '2023.05.02',
+   license : 'GPL3'
+ )
+ 
+-- 
+2.41.0
+
