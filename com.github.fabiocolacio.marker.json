@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.fabiocolacio.marker",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "45",
+  "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
   "command": "marker",
   "finish-args": [
