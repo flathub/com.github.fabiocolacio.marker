@@ -1,7 +1,7 @@
 {
   "app-id": "com.github.fabiocolacio.marker",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "46",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "marker",
   "finish-args": [
@@ -36,8 +36,8 @@
         "sources": [
           {
             "type": "archive",
-            "url": "https://github.com/AbiWord/enchant/archive/refs/tags/enchant-1-6-1.tar.gz",
-            "sha256": "ed2b11211a571ab5f963debf4c3bf3fc46541bb9cbb441b2997bd871ba8618d4"
+            "url": "https://github.com/rrthomas/enchant/releases/download/v2.8.12/enchant-2.8.12.tar.gz",
+            "sha256": "20e5fab2ca0f95ba9d1ef5052fe5b028e3e1d66d4cdea6b9adfcbd3e524c2a09"
           },
           {
             "type": "shell",
@@ -55,6 +55,12 @@
             "type": "archive",
             "url": "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.11.tar.xz",
             "sha256": "691b074a37b2a307f7f48edc5b8c7afa7301709be56378ccf9cc9735909077fd"
+          },
+          {
+            "type": "patch",
+            "paths": [
+                "0001-gtksourceview-Add-typecast-when-setting-source_buffe.patch"
+            ]
           }
         ]
       },
@@ -87,6 +93,10 @@
           {
             "type": "patch",
             "path": "0001-fix-Update-appdata-manifest-with-the-latest-release.patch"
+          },
+          {
+            "type": "patch",
+            "path": "0001-fix-incompatible-pointer-in-marker_window_init.patch"
           }
         ],
         "post-install" : [
