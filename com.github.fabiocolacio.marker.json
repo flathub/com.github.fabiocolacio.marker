@@ -59,7 +59,7 @@
           {
             "type": "patch",
             "paths": [
-                "0001-gtksourceview-Add-typecast-when-setting-source_buffe.patch"
+                "patches/gtksourceview-Add-typecast-when-setting-source_buffe.patch"
             ]
           }
         ]
@@ -88,15 +88,11 @@
           },
           {
             "type": "patch",
-            "path": "0001-fix-build-Bump-version-in-Meson-file-to-2023.05.02.patch"
-          },
-          {
-            "type": "patch",
-            "path": "0001-fix-Update-appdata-manifest-with-the-latest-release.patch"
-          },
-          {
-            "type": "patch",
-            "path": "0001-fix-incompatible-pointer-in-marker_window_init.patch"
+            "paths": [
+              "patches/fix-build-Bump-version-in-Meson-file-to-2023.05.02.patch",
+              "patches/fix-Update-appdata-manifest-with-the-latest-release.patch",
+              "patches/fix-incompatible-pointer-in-marker_window_init.patch"
+            ]
           }
         ],
         "post-install" : [
