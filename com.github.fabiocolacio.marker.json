@@ -58,9 +58,7 @@
           },
           {
             "type": "patch",
-            "paths": [
-                "patches/gtksourceview-Add-typecast-when-setting-source_buffe.patch"
-            ]
+            "path": "patches/gtksourceview-Add-typecast-when-setting-source_buffe.patch"
           }
         ]
       },
